@@ -9,8 +9,6 @@ class Blog(models.Model):
     body = models.TextField()
     image = models.ImageField(upload_to='images/')
 
-# Create a migration
 
-# Migrate
 
 # Add to the admin
