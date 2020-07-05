@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
-        'USER': 'postgres',
+        'USER': 'djangodbman',
         'PASSWORD': 'Hayabusa1',
         'HOST': 'localhost',
         'PORT': '5432',
@@ -137,4 +137,3 @@ try:
     from local_settings import *
 except ImportError:
     pass
-    
