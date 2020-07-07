@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% load static %}
+    {% load staticfiles %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -39,9 +39,8 @@
       <p class="lead text-muted">Hi I am Joe and I love to make Django websites. It's the passion of handling the requests of what the people want!</p>
       <p>
         <a href="mailto:jc_omniscient@hotmail.com" class="btn btn-primary my-2">Email Me</a>
-        <img src = "{% static '/static/chill.jpg'%}" />
       </p>
-
+      <img src = "{% static 'chill.jpg' %}" height="300" />
     </div>
   </section>
 
